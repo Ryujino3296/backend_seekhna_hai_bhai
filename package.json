@@ -4,7 +4,7 @@
   "description": "a backend project ",
   "main": "index.js",
   "scripts": {
-    "test": "javascript, backend, chai "
+    "dev": "nodemon src/inidex.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +12,8 @@
     "chai"
   ],
   "author": "Saurav Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
